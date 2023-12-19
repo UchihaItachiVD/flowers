@@ -1,0 +1,26 @@
+/* Add or modify styles for the flower page as needed */
+.flower-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#flower {
+    width: 100px;
+    height: 100px;
+    background-color: #ff69b4; /* Pink color for the flower, you can change it */
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.flower-animation {
+    animation: bloom 2s ease-in-out infinite;
+}
+
+@keyframes bloom {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
